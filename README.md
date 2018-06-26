@@ -1,16 +1,14 @@
 # Pixel Art Maker Project
 
-## Table of Contents
+## Description
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+Create a canvas of your choice and paint away!
 
 ## Instructions
 
-To get started, open `designs.js` and start building out the app's functionality.
+* Choose your preffered width and height and click the submit button
+* Pick your preffered color from the color picker
+* Paint by clicking on the boxes in the canvas grid
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+## Live Version
+Open live version of project [here](https://trafiki.github.io/Pixel-Art-Maker/).
