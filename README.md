@@ -6,7 +6,7 @@ Create a canvas of your choice and paint away!
 
 ## Instructions
 
-* Choose your preffered width and height and click the submit button
+* Choose your preffered width and height for the canvas grid and click the submit button
 * Pick your preffered color from the color picker
 * Paint by clicking on the boxes in the canvas grid
 
