@@ -39,8 +39,13 @@ function makeGrid() {
     color = $("#colorPicker").val();
   });
 
-  // Set event listener for all the table cells. BG color changes when clicked.
+  // Set event listener for all the table cells. BG color toggles each time a tab;e cell is being clicked.
   $('td').click(function() {
-    $(this).css("background", color);
+    if ($(this).css("background-color") !== "rgba(0, 0, 0, 0)") {
+      $(this).css("background-color", "rgba(0, 0, 0, 0)");
+      console.log('i was here');
+      return;
+    }
+    $(this).css("background-color", color);
   });
 }
