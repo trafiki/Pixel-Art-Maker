@@ -22,8 +22,6 @@ $('input[type="submit"]').click(function(e) {
   makeGrid();
 });
 
-
-
 function makeGrid() {
   // Layout out the canvas height
   for (let i = 0; i < height; i++) {
@@ -43,7 +41,6 @@ function makeGrid() {
   $('td').click(function() {
     if ($(this).css("background-color") !== "rgba(0, 0, 0, 0)") {
       $(this).css("background-color", "rgba(0, 0, 0, 0)");
-      console.log('i was here');
       return;
     }
     $(this).css("background-color", color);
