@@ -35,6 +35,7 @@ function makeGrid() {
   // Set event listener for the color picker
   $("#colorPicker").change(function() {
     color = $("#colorPicker").val();
+    $('h1').css('color', color);
   });
 
   // Set event listener for all the table cells. BG color toggles each time a tab;e cell is being clicked.
